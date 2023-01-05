@@ -23,7 +23,7 @@ class Welcome extends MY_Controller {
 	{
 
 	
-		$data['title'] = 'Welcome to Codeignator (blade + HMVC)';
+		$data['title'] = 'Welcome to CodeIgniter (blade + HMVC)';
 		$this->view('welcome_message',$data);
 	}
 }
